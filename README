@@ -1,0 +1,26 @@
+File::NCopy
+
+copy()          Copies file to file or files/directories to a directory.
+
+cp()            Just an alias for copy.
+
+The below are only for the object oriented features.
+
+new()           When used as an object, it's used for instatiation.
+
+preserve()      Preserve some of the originating file's attributes.
+
+recursive()     Set the recursive flag. 
+
+follow_links()  Follow symbolic links instead of just recreating them.
+
+To install :
+
+perl Makefile.PL
+make
+make install
+
+Copyright (c) 1998 Gabor Egressy <gabor@vmunix.com>.
+All rights reserved.  All wrongs reversed.  This program is free
+software; you can redistribute and/or modify it under the same terms as
+Perl itself.
