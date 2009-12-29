@@ -1,5 +1,5 @@
 package File::NCopy;
-require 5.004; # just because I think you should upgrade :)
+use 5.004; # just because I think you should upgrade :)
 
 =head1 NAME
 
